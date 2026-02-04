@@ -1,0 +1,19 @@
+{
+  "name": "yenioyun",
+  "version": "1.0.0",
+  "main": "game.js",
+  "scripts": {
+    "copy": "npx cap copy",
+    "sync": "npx cap sync",
+    "open:ios": "npx cap open ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@capacitor/cli": "^8.0.2",
+    "@capacitor/core": "^8.0.2",
+    "@capacitor/ios": "^8.0.2"
+  }
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="game-stack" id="game-stack">
+      <section class="hud" id="hud">
+        <div class="score" id="score">Score: 0</div>
+        <h1 class="hud-title">Neon Snake</h1>
+        <button id="pause" class="pause-btn" aria-label="Pause">Pause</button>
+      </section>
+
+      <section class="board">
+        <canvas id="game" width="400" height="400" aria-label="Snake game board"></canvas>
+        <div id="overlay" class="overlay hidden" aria-hidden="true">
+          <div class="overlay-card">
+            <div class="overlay-title">Game Over</div>
+            <div class="overlay-score">Final Score: <span id="final-score">0</span></div>
+            <div class="overlay-score">Best Score: <span id="best-score">0</span></div>
+            <button id="restart" class="restart-btn">Restart</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" id="controls">
+        <div class="status" id="status">Press Start</div>
+        <div class="buttons">
+          <button id="start">Start</button>
+        </div>
+        <div class="help" id="help">
+          Swipe to move<br>Eat. Grow. Survive.
+        </div>
+      </section>
+          </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>

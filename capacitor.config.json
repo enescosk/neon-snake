@@ -1,0 +1,9 @@
+{
+  "appId": "com.berber.snakeclassic",
+  "appName": "Snake Classic",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "cleartext": true
+  }
+}
